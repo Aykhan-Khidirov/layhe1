@@ -1,0 +1,60 @@
+* {
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signin{
+border-radius: 5px;
+margin-right: 38px;
+padding: 15px 30px;
+display: inline-flex;
+background-color: black;
+color: #fff;
+}
+.left{
+    font-size:20px ;
+    
+}
+small{
+    font-size: 20px;
+}
+
+.orta{
+    display: flex;
+    flex-direction: column;
+}
+.fa-bars{
+    display: none;
+}
+
+@media(max-width:768px){
+    .linkler{
+        display: none;
+    }
+    .fa-bars{
+        display: block
+        ;
+    }
+}
+section.orta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.orta .foto{
+    width: 300px;
+}
+section.orta .foto img{
+    width: 100%;
+}
+@media(min-width:576px) and (max-width:768px){
+    section.orta{
+        flex-direction: row;
+        justify-content: space-between;
+
+
+}
